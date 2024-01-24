@@ -89,8 +89,9 @@ label continue_conversation:
     "As the sun dipped below the horizon, painting the sky in a symphony of colors, Aiko suggested continuing our chat over dinner."
     "I agreed, feeling a surge of excitement."
 
-    scene bg sakura sepia at bg_zoomed2 with dissolve
+    scene bg sakura sepia at bg_zoomed2
     show ai summersera frown blush sepia at ai_zoomed
+    with dissolve
     "As we walked to the nearby restaurant, I couldn't help but feel grateful for that fateful moment in the park."
     "That day marked the beginning of a journey filled with laughter, adventures, and unforgettable memories."
     "Aiko became a beacon of light in my life, and I cherished every moment with her."
