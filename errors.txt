@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/filters_en.rpy", line 167: invalid syntax
+                for i in img_list[]:            
+                                   ^
+
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Thu Jan 25 00:58:44 2024
