@@ -164,7 +164,7 @@ init 999:   # Initialize in the last queue
                     renpy.transition(filter_transition) # Apply the transition
                     renpy.scene()                       # Reset the scene
 
-                    for i in img_list:            # Iterate through the list of images in reverse
+                    for i in img_list[::-1]:            # Iterate through the list of images in reverse
                         if i["tag"] in ignore:          # If the tag is in the list of ignored tags
                             continue                    # Skip
 
