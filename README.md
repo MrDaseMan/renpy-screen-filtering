@@ -51,4 +51,4 @@ $ filter.enable("sepia", Fade(0.5, 1.0, 0.5, color="#ffffff"))
 $ filter.disable("sepia", Fade(0.5, 1.0, 0.5, color="#000000"))
 ```
 
-Thanks for [this guys](./Credits) for visual part of example novel.
+Thanks for [this guys](./CREDITS.md) for visual part of example novel.
