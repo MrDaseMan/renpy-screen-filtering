@@ -7,7 +7,7 @@ Ren'Py library for simple screen filtering
 Here u can see an example project which demonstrates how to use simple screen filtering in Ren'Py.
 
 ## Definitions
-All functions are defined in [filters.rpy](./game/filters.rpy) file.
+All functions are defined in [filters_en.rpy](./game/filters_en.rpy) file.
 
 ### Structure of `simple_filter` **class**
 
@@ -26,14 +26,14 @@ class simple_filter:
         ## ... ##
 ```
 
-U can check additional comments inside [that file](./game/filters.rpy) to see how it works step by step.
+U can check additional comments inside [that file](./game/filters_en.rpy) to see how it works step by step.
 
 By default, `simple_filter` class is applied `"sepia"` and `"grayscale"` filters to all images.
 
 ### Usage
 To see an example of usage, you can see [that script](./game/script.rpy).
 
-`filter` is predefined variable in [filters.rpy](./game/filters.rpy). It is an object of `simple_filter` class.
+`filter` is predefined variable in [filters_en.rpy](./game/filters_en.rpy). It is an object of `simple_filter` class.
 
 ```py
 filter = simple_filter()
