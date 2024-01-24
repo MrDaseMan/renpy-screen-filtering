@@ -100,7 +100,7 @@ init 999:   # Инициализируется в самую последнюю 
                     renpy.transition(filter_transition) # Применяем переход
                     renpy.scene()                       # Сбрасываем сцену
                     
-                    for i in img_list:    # Перебираем инвертированный список
+                    for i in img_list[::-1]:    # Перебираем инвертированный список
                         if i["tag"] in ignore:  # Если тег в списке игнорируемых
                             continue            # Пропускаем
 
